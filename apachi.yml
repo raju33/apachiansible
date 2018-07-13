@@ -1,5 +1,5 @@
 ---
-- hosts: 13.232.40.85  
+- host: 35.154.252.61
   tasks:
   - name: ensure apache is at the latest version
     yum: name=httpd state=latest
